@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.021,
+  "time": 0.022,
   "errors": [],
   "tasks": [
     {
@@ -42,10 +42,10 @@
         "scheme": "file",
         "title": "Saídas hospitalares a partir de 2025",
         "stats": {
-          "hash": "a18008ac2681c154a7be7e9b35883489",
-          "bytes": 2424,
+          "hash": "80b603800745b4beb194719fe1d97380",
+          "bytes": 2708,
           "fields": 4,
-          "rows": 153
+          "rows": 170
         }
       },
       "time": 0.012,
