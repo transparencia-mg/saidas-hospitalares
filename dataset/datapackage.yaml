@@ -2,7 +2,7 @@ name: saidas-hospitalares
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
-  - description: Dados de saídas hospitalares por unidade FHEMIG a partir de 2025.
+  - description: Dados de saídas hospitalares por unidade FHEMIG divididos por setor (Tasy) ou centro de custo (SIGH).
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -22,9 +22,12 @@ resources:
         - name: mes
           type: integer
           description: "Mês de referência."
+        - name: setor_centro_custo
+          type: integer
+          description: "Setor hospitalar (Tasy) ou Centro de Custo (SIGH)."
         - name: saidas
           type: integer
           description: "Saída hospitalar (alta, evasão, desistência, transferência externa ou óbito)."
     scheme: file
-    title: Saídas hospitalares a partir de 2025
+    title: Saídas hospitalares por unidade FHEMIG
 title: Saídas Hospitalares
